@@ -125,7 +125,7 @@ const Hero: React.FC = () => {
             <img
               src="/pic.jpg" 
               alt="John Doe"
-              className="w-full h-full object-cover object-[10%_10%]"
+              className="w-full h-full object-cover object-[5%_5%]"
             />
           </motion.div>
         </motion.div>
