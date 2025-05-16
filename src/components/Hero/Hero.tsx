@@ -101,6 +101,16 @@ const Hero: React.FC = () => {
               View Work
             </motion.a>
           </motion.div>
+            {/* <motion.a
+               href="/Sumit_Moharana_Resume.pdf"
+               download
+               className="px-8 py-3 bg-white text-black font-semibold rounded-lg hover:bg-gray-200 transition-colors"
+               whileHover={{ scale: 1.05 }}
+               whileTap={{ scale: 0.95 }}
+            >
+             Download Resume
+           </motion.a> */}
+
         </motion.div>
         
         <motion.div 
@@ -113,9 +123,9 @@ const Hero: React.FC = () => {
             transition={{ type: "spring", stiffness: 300 }}
           >
             <img
-              src="/hero-image.jpg" 
+              src="/pic.jpg" 
               alt="John Doe"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-[10%_10%]"
             />
           </motion.div>
         </motion.div>

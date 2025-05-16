@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
-import Layout from './layout/Layout';
+import Layout from 
+'./layout/Layout';
 import Hero from './components/Hero/Hero';
 import About from './components/About/About';
 import Experience from './components/Experience/Experience';

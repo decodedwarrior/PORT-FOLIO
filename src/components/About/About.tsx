@@ -19,11 +19,11 @@ const About: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="w-full md:w-1/2">
               <div className="relative">
-                <div className="w-full h-80 md:h-96 lg:h-[500px] bg-gray-200 rounded-lg overflow-hidden">
+                <div className="w-full max-w-md mx-auto -4 h-80 md:h-96 lg:h-[500px] bg-gray-200 rounded-lg overflow-hidden">
                   <img 
-                    src="/avatar.jpg" 
+                    src="/avatar.png" 
                     alt="Sumit Moharana" 
-                    className="w-full h-full object-cover"
+                    className="w-full h-auto rounded-xl object-cover"
                   />
                 </div>
                 <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-yellow-400 -z-10 rounded-lg"></div>
