@@ -65,14 +65,14 @@ const Hero: React.FC = () => {
               className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500"
               variants={itemVariants}
             >
-              John Doe
+             Sumit Moharana
             </motion.span>
           </motion.h1>
           <motion.h2 
             className="text-xl sm:text-2xl md:text-3xl text-gray-300 mb-6"
             variants={itemVariants}
           >
-            Frontend Developer & UI/UX Designer
+             Multifacilated Full Stack Devloper & Multimedia Creator
           </motion.h2>
           <motion.p 
             className="text-white/80 text-lg mb-8 max-w-lg"
